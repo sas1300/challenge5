@@ -1,7 +1,7 @@
 
 
 //Date information
-var currentDay = moment().format("dddd, MMMM do");
+var currentDay = moment().format("dddd, MMMM Do");
 $("#currentDay").text(currentDay);
 
 
