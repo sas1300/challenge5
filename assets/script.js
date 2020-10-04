@@ -1,8 +1,11 @@
-$("#currentDay").moment("dddd, MMMM do");
-};
 
 
-console.log(currentDay);
-console.log(typeof currentDay);
+//Date information
+var currentDay = moment().format("dddd, MMMM do");
+$("#currentDay").text(currentDay);
+
+
+
+
 
 
