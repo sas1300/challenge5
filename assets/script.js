@@ -17,9 +17,17 @@ $("#currentDay").text(currentDay);
 //event listener...click event function
 
 //save button click using jQuery
-$("saveButton").on("click", function() {
+$("saveButton").click(function(event) {
+     //event handler
+     $("taskText").html()
+     
+     console.log(event);
+     console.log(event.target);
 
+    
 
+    //outcome of the event - Save into local storage
+    localStorage.setItem()
 
 })
 
