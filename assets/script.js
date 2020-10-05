@@ -5,30 +5,21 @@ var currentDay = moment().format("dddd, MMMM Do");
 $("#currentDay").text(currentDay);
 
 
-// I DON'T THINK I NEED THIS 
-//create a new task in text area
-//var createTask = function(taskText) {
-   //var taskEnter = $("<textarea>"); 
-//edit an existing task in text area
-//remove an existing task in text area
-
-
 //save content of text area into local storage when save button is clicked
 //event listener...click event function
 
 //save button click using jQuery
 $("saveButton").click(function(event) {
      //event handler
-     $("taskText").html()
-     
-     console.log(event);
-     console.log(event.target);
+     var taskText = $("#taskText").val().trim();
 
-    
+     console.log(taskText);
+     
 
     //outcome of the event - Save into local storage
     localStorage.setItem()
-
+    
+    console.log(localStorage);
 })
 
 
@@ -37,3 +28,10 @@ $("saveButton").click(function(event) {
     //  has passed - color grey
     // current hour - color red
     // upcoming hour - color green
+
+
+
+
+
+    //jquery docs info: $( "#log" ).html( "clicked: " + event.target.nodeName );
+     //What does this mean?????   LA says this if you want to place an item in your webpage.
