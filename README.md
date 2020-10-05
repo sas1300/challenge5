@@ -21,6 +21,12 @@
     * Moment.js
     * Font Awesome
 
+**Successes and Challenges**
+ During this project I found it very difficult to recall all of the information we have learned and apply it to creating a functioning scheduler.  Due to that, I found it difficult to complete all of the steps required to duplicate the mock-up.  I was very close to getting the text box entry to save into local storage but was unable to get the function to work properly.  
+ I did have success in creating the layout of the time blocks, was able to make the text box functional and was able to generate the daily date. 
+
+
+
 
 **Link to github repository**:  https://github.com/sas1300/challenge5.git
 
